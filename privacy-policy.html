@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy – ប្រតិទិនខ្មែរ (Khmer Calendar)</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #fdf5f8;
+      color: #2d2d2d;
+      line-height: 1.75;
+    }
+
+    header {
+      background: linear-gradient(135deg, #3d1530, #C65B8B);
+      color: #fff;
+      padding: 48px 24px 40px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+    header p {
+      opacity: 0.85;
+      font-size: 0.95rem;
+    }
+
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    .meta {
+      background: #fff;
+      border: 1px solid #f0d8e4;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 36px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px 24px;
+      font-size: 0.9rem;
+    }
+    .meta span { color: #888; }
+    .meta a { color: #C65B8B; text-decoration: none; }
+
+    section { margin-bottom: 36px; }
+
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #3d1530;
+      border-left: 4px solid #C65B8B;
+      padding-left: 12px;
+      margin-bottom: 14px;
+    }
+
+    p { margin-bottom: 12px; font-size: 0.95rem; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      margin-bottom: 12px;
+    }
+    th {
+      background: #f7eaf0;
+      color: #3d1530;
+      text-align: left;
+      padding: 10px 14px;
+      font-weight: 600;
+    }
+    td { padding: 10px 14px; border-bottom: 1px solid #f0e0e8; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+
+    .badge {
+      display: inline-block;
+      background: #f7eaf0;
+      color: #C65B8B;
+      border: 1px solid #e8c8d8;
+      border-radius: 20px;
+      padding: 2px 10px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin: 2px 4px 2px 0;
+    }
+    .badge.green { background: #edf7f0; color: #2e7d52; border-color: #b8dfc8; }
+    .badge.gray  { background: #f3f3f3; color: #666; border-color: #ddd; }
+
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    li { font-size: 0.95rem; margin-bottom: 6px; }
+
+    .highlight {
+      background: #fff8fb;
+      border: 1px solid #f0d8e4;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 12px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 0.85rem;
+      color: #aaa;
+      border-top: 1px solid #f0d8e4;
+    }
+    footer a { color: #C65B8B; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ប្រតិទិនខ្មែរ · Khmer Calendar</h1>
+  <p>Privacy Policy</p>
+</header>
+
+<div class="container">
+
+  <div class="meta">
+    <div><span>App</span><br/>Khmer Calendar (ប្រតិទិនខ្មែរ)</div>
+    <div><span>Developer</span><br/>Nimol XYZ</div>
+    <div><span>Contact</span><br/><a href="mailto:nimolxyz@gmail.com">nimolxyz@gmail.com</a></div>
+    <div><span>Last updated</span><br/>May 3, 2026</div>
+  </div>
+
+  <section>
+    <h2>1. Overview</h2>
+    <p>Khmer Calendar is a traditional Khmer lunar calendar app. We built it to be simple, private, and offline-first. This policy explains exactly what data we access, why, and how it is handled.</p>
+    <div class="highlight">
+      <strong>Short version:</strong> We do not collect, sell, or share your personal data. All your settings are stored locally on your device. The only optional data you ever send us is the feedback message you choose to write.
+    </div>
+  </section>
+
+  <section>
+    <h2>2. Permissions &amp; Why We Need Them</h2>
+    <table>
+      <tr>
+        <th>Permission</th>
+        <th>Why it is needed</th>
+      </tr>
+      <tr>
+        <td><span class="badge">INTERNET</span></td>
+        <td>Required for three optional features: sending feedback via Telegram, fetching live gold prices (Yahoo Finance), and fetching exchange rates (National Bank of Cambodia). The app works fully offline without these features.</td>
+      </tr>
+      <tr>
+        <td><span class="badge">READ_CALENDAR</span></td>
+        <td>Reads events from your device calendar so they can be displayed alongside Khmer calendar dates. This data never leaves your device.</td>
+      </tr>
+      <tr>
+        <td><span class="badge">POST_NOTIFICATIONS</span></td>
+        <td>Sends local on-device reminders for Sila days, public holidays, festivals, and the daily horoscope. Notifications are generated entirely on your device — no server is involved.</td>
+      </tr>
+      <tr>
+        <td><span class="badge">RECEIVE_BOOT_COMPLETED</span></td>
+        <td>Re-schedules your notification alarms after the device is restarted so you continue receiving reminders.</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>3. Data Stored on Your Device</h2>
+    <p>The following is stored <strong>locally only</strong> using Android SharedPreferences and never transmitted:</p>
+    <ul>
+      <li>Theme and language preferences</li>
+      <li>Notification on/off toggles and reminder time</li>
+      <li>Cached gold price and exchange rate (to reduce repeat network calls)</li>
+      <li>App settings (show Rasei, show device calendar, etc.)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Network Requests</h2>
+    <table>
+      <tr>
+        <th>Feature</th>
+        <th>Destination</th>
+        <th>Data Sent</th>
+        <th>Personal?</th>
+      </tr>
+      <tr>
+        <td>Feedback form</td>
+        <td>api.telegram.org</td>
+        <td>Name (optional), contact (optional), message text</td>
+        <td><span class="badge">Optional</span></td>
+      </tr>
+      <tr>
+        <td>Gold price</td>
+        <td>query1.finance.yahoo.com</td>
+        <td>None — read-only public data request</td>
+        <td><span class="badge green">None</span></td>
+      </tr>
+      <tr>
+        <td>Exchange rate</td>
+        <td>data.mef.gov.kh (National Bank of Cambodia)</td>
+        <td>None — read-only public data request</td>
+        <td><span class="badge green">None</span></td>
+      </tr>
+    </table>
+    <p>No IP address, device identifier, or personal information is included in the gold price or exchange rate requests.</p>
+  </section>
+
+  <section>
+    <h2>5. Feedback Data</h2>
+    <p>The in-app feedback form is entirely optional. If you use it:</p>
+    <ul>
+      <li>Name and contact fields are optional — you may leave them blank.</li>
+      <li>Your message is sent directly to the developer via Telegram Bot API over HTTPS.</li>
+      <li>This data is used only to respond to your feedback. It is not stored in any database, not sold, and not shared with any third party.</li>
+      <li>To request deletion of a submitted message, email <a href="mailto:nimolxyz@gmail.com">nimolxyz@gmail.com</a>.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. Device Calendar Access</h2>
+    <p>With your permission, the app reads events from your device's calendar to display them alongside Khmer dates. This data is read locally and is never uploaded or transmitted anywhere.</p>
+  </section>
+
+  <section>
+    <h2>7. Advertising &amp; Analytics</h2>
+    <p>
+      <span class="badge gray">No Ads</span>
+      <span class="badge gray">No Advertising ID</span>
+      <span class="badge gray">No Analytics SDK</span>
+      <span class="badge gray">No Crash Reporting</span>
+      <span class="badge gray">No Tracking</span>
+    </p>
+    <p>This app contains no advertisements and does not use any third-party analytics, tracking, or crash-reporting libraries.</p>
+  </section>
+
+  <section>
+    <h2>8. Children's Privacy</h2>
+    <p>Khmer Calendar is a general-purpose calendar app suitable for all ages. We do not knowingly collect any personal information from children under 13.</p>
+  </section>
+
+  <section>
+    <h2>9. Data Security</h2>
+    <p>All network communication (feedback, gold price, exchange rate) is performed over HTTPS. No sensitive personal data is collected or stored on our servers.</p>
+  </section>
+
+  <section>
+    <h2>10. Your Rights</h2>
+    <ul>
+      <li><strong>Access / Deletion:</strong> Since we store no personal data on our servers, there is nothing to access or delete beyond what is stored locally on your device. You can clear all app data at any time via Android Settings → Apps → Khmer Calendar → Clear Data.</li>
+      <li><strong>Feedback deletion:</strong> Email <a href="mailto:nimolxyz@gmail.com">nimolxyz@gmail.com</a> to request removal of any feedback message you submitted.</li>
+      <li><strong>Permissions:</strong> You can revoke any permission (Calendar, Notifications) at any time via Android Settings → Apps → Khmer Calendar → Permissions.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>11. Changes to This Policy</h2>
+    <p>We may update this policy as the app evolves. The latest version will always be available at this URL. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+  </section>
+
+  <section>
+    <h2>12. Contact</h2>
+    <p>If you have any questions about this privacy policy or the app's data practices, please contact us at:<br/>
+    <a href="mailto:nimolxyz@gmail.com">nimolxyz@gmail.com</a></p>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2026 Khmer Calendar · <a href="mailto:nimolxyz@gmail.com">nimolxyz@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
