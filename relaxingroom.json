@@ -1,5 +1,5 @@
 {
-  "showMusic": true,
+  "showMusic": false,
   "showAdmob": false,
   "tracks": [
     {
@@ -15,6 +15,6 @@
       "title": "Sila Peace (Dharma Spoken Word)"
     }
   ],
-  "mainternace": false,
+  "mainternace": true,
   "version": 3.1
 }
