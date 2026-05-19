@@ -1,6 +1,6 @@
 {
-  "showMusic": false,
-  "showAdmob": false,
+  "showMusic": true,
+  "showAdmob": true,
   "tracks": [
     {
       "url": "https://storage.googleapis.com/producer-app-public/clips/f671ae89-434f-484d-85e1-ced50d5f823b.m4a",
@@ -15,6 +15,6 @@
       "title": "Sila Peace (Dharma Spoken Word)"
     }
   ],
-  "mainternace": false,
+  "mainternace": true,
   "version": 3.1
 }
