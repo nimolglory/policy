@@ -1,6 +1,17 @@
 {
   "showMusic": false,
   "showYt": true,
+  "ytChannels": [
+    {
+      "name": "Yun Tong",
+      "url": "https://www.youtube.com/@yuntong2441",
+      "embedUrl": "https://www.youtube.com/embed?listType=user_uploads&list=yuntong2441"
+    },
+    {
+      "name": "Prah Puthvachanac",
+      "url": "https://www.youtube.com/@prahputhvachanac"
+    }
+  ],
   "showAdmob": true,
   "tracks": [
     {
