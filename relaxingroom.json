@@ -1,5 +1,6 @@
 {
-  "showMusic": true,
+  "showMusic": false,
+  "showYt": false,
   "showAdmob": true,
   "tracks": [
     {
