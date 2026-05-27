@@ -1,6 +1,6 @@
 {
   "showMusic": false,
-  "showYt": true,
+  "showYt": false,
   "ytChannels": [
     {
       "name": "Yun Tong",
